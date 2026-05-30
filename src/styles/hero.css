@@ -356,7 +356,7 @@
 
   .hero-first-row,
   .hero-second-row {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: flex-start;
     gap: 28px;
   }
