@@ -1,74 +1,10 @@
 import { useEffect, useState } from "react";
 import "../styles/hero.css";
 import RobotScene from "./RobotScene";
-
-
-// import {
-//   FaReact,
-//   FaFigma,
-//   FaNodeJs,
-//   FaHtml5,
-// } from "react-icons/fa";
 import { FaGithub, FaLinkedinIn, FaBehance, FaEnvelope, FaTimes } from "react-icons/fa";
 
-// import {
-//   SiMongodb,
-//   SiMysql,
-// } from "react-icons/si";
 function Hero() {
   const [showContact, setShowContact] = useState(false);
-  // const roles = [
-  //   { first: "UI / UX", second: " DESIGNER" },
-  //   { first: "FRONTEND", second: " DEVELOPER" },
-  //   { first: "BACKEND", second: " DEVELOPER" },
-  //   { first: "SOFTWARE", second: " ENGINEER" },
-  // ];
-
-
-// const [roleIndex, setRoleIndex] = useState(0);
-// const [displayFirst, setDisplayFirst] = useState("");
-// const [displaySecond, setDisplaySecond] = useState("");
-// const [isDeleting, setIsDeleting] = useState(false);
-// const [activeLine, setActiveLine] = useState("first");
-
-// useEffect(() => {
-//   const currentRole = roles[roleIndex];
-//   const fullFirst = currentRole.first;
-//   const fullSecond = currentRole.second;
-
-//   const typingSpeed = isDeleting ? 45 : 90;
-//   const pauseTime = 1200;
-//   const timeout = setTimeout(() => {
-//     if (!isDeleting) {
-//       if (displayFirst.length < fullFirst.length) {
-//         setActiveLine("first");
-//         setDisplayFirst(fullFirst.slice(0, displayFirst.length + 1));
-//       } else if (displaySecond.length < fullSecond.length) {
-//         setActiveLine("second");
-//         setDisplaySecond(fullSecond.slice(0, displaySecond.length + 1));
-//       } else {
-//         setActiveLine("second");
-//         setTimeout(() => setIsDeleting(true), pauseTime);
-//       }
-//     } else {
-//       if (displaySecond.length > 0) {
-//         setActiveLine("second");
-//         setDisplaySecond(fullSecond.slice(0, displaySecond.length - 1));
-//       } else if (displayFirst.length > 0) {
-//         setActiveLine("first");
-//         setDisplayFirst(fullFirst.slice(0, displayFirst.length - 1));
-//       } else {
-//         setIsDeleting(false);
-//         setRoleIndex((prev) => (prev + 1) % roles.length);
-//       }
-//     }
-//   }, typingSpeed);
-
-//   return () => clearTimeout(timeout);
-// }, [displayFirst, displaySecond, isDeleting, roleIndex]);
-
-
-//   const currentRole = roles[roleIndex];
 
   return (
     <section className="hero-section">
