@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+:root {
+  --bg-color: #030303;
+  --primary-color: #c9f31d;
+  --text-color: #ffffff;
+  --muted-text: #b8b8b8;
+
+  --card-bg: rgba(255, 255, 255, 0.06);
+  --card-bg-light: rgba(255, 255, 255, 0.1);
+  --card-border: rgba(201, 243, 29, 0.22);
+  --card-border-active: rgba(201, 243, 29, 0.45);
+
+  --glow-soft: 0 0 60px rgba(201, 243, 29, 0.18);
+  --glow-strong: 0 0 95px rgba(201, 243, 29, 0.25);
+  --shadow-dark: 0 25px 80px rgba(0, 0, 0, 0.55);
+
+  --radius-md: 20px;
+  --radius-lg: 30px;
+  --radius-xl: 36px;
+  --radius-full: 999px;
+
+  --container-width: min(1180px, 90%);
+  --transition-fast: 0.25s ease;
+  --transition-normal: 0.4s ease;
+  --transition-slow: 0.6s ease;
+
+  --font-main: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-main);
+  background: var(--bg-color);
+  color: var(--text-color);
+  overflow-x: hidden;
+}
+
+button,
+input,
+textarea {
+  font-family: inherit;
+}
+
+button {
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
