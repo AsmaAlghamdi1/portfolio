@@ -17,7 +17,8 @@ function Experience() {
       role: "Full Stack & UI/UX Developer",
       description:
         "Contributed to the UI/UX design and full stack development of an interactive geographic platform for exploring Hadith stories through audio and text experiences.",
-        website:"https://gdguj.azurewebsites.net/"
+        website:null,
+        status: "Coming Soon"
     },
   ];
 
@@ -60,16 +61,20 @@ function Experience() {
         <h3>{item.title}</h3>
         <h4>{item.role}</h4>
         <p>{item.description}</p>
-{item.website && (
+{item.website ? (
   <a
     href={item.website}
     target="_blank"
     rel="noopener noreferrer"
     className="experience-link"
   >
-    Website 
+    Website
   </a>
-)}
+) : item.status ? (
+  <span className="experience-link disabled">
+    {item.status}
+  </span>
+) : null}
         
       </div>
     </motion.div>
