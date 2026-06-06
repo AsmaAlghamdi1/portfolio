@@ -5,13 +5,14 @@ import { FaGithub, FaLinkedinIn, FaBehance, FaEnvelope, FaTimes } from "react-ic
 
 function Hero() {
   const [showContact, setShowContact] = useState(false);
+  console.log(window.innerWidth);
 
   return (
     <section className="hero-section">
       <div className="hero-content">
         <h1 className="hero-title">
             <div className="hero-first-row">
-                <span className="hero-first" >UI / UX</span>
+                <span className="hero-first" >Full stack Developer </span>
                 <div className="star-wrapper">
                     <div className="hero-star"></div>
                 </div>
@@ -25,7 +26,7 @@ function Hero() {
                 <div className="line"></div>
                 </div>
 
-                <span className="hero-second">DESIGNER</span>
+                <span className="hero-second">& UI/UX Designer</span>
             </div>
         </h1>
 
