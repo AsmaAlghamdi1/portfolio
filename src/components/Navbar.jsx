@@ -1,38 +1,3 @@
-// import { useState } from "react";
-// import "../styles/navbar.css";
-
-// function Navbar() {
-//   const [activeTab, setActiveTab] = useState("home");
-
-//   const navLinks = [
-//     { name: "Home", id: "home" },  
-//     { name: "Skills", id: "skills" },
-//     { name: "Projects", id: "projects" },
-//     { name: "Experince", id: "experince"},
-//   ];
-
-//   return (
-//     <header className="navbar">
-//       <a href="#home" className="navbar-logo">
-//         PORTFOLIO
-//       </a>
-
-//       <nav className="navbar-links">
-//         {navLinks.map((link) => (
-//           <a
-//             key={link.id}
-//             href={`#${link.id}`}
-//             onClick={() => setActiveTab(link.id)}
-//             className={activeTab === link.id ? "active" : ""}
-//           >
-//             {link.name}
-//           </a>
-//         ))}
-//       </nav>
-//     </header>
-//   );
-// }
-
 // export default Navbar;
 import { useEffect, useState } from "react";
 import "../styles/navbar.css";

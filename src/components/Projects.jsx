@@ -155,10 +155,6 @@ function Projects() {
       <div className="projects-header">
         {/* <span>SELECTED WORK</span> */}
         <h2>Projects</h2>
-        {/* <p>
-          Interactive project cards designed to highlight my work in a
-          futuristic portfolio style.
-        </p> */}
       </div>
 
       {selectedIndex === null ? (
@@ -194,7 +190,6 @@ function Projects() {
           </div>
 
           <button className="arrow-btn right" onClick={nextProject}>
-            {/* <HiArrowLongRight /> */}
             <FaArrowRight />
           </button>
         </div>

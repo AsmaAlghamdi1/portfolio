@@ -55,7 +55,7 @@ function Hero() {
             <p>Reach me through any of these platforms.</p>
 
             <div className="contact-links">
-              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=Asmaa.sa1357@gmail.com" aria-label="Email">
+              <a href="mailto:Asmaa.sa1357@gmail.com" aria-label="Email">
                 <FaEnvelope />
               </a>
 
