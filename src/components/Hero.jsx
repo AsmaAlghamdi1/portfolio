@@ -12,7 +12,7 @@ function Hero() {
       <div className="hero-content">
         <h1 className="hero-title">
             <div className="hero-first-row">
-                <span className="hero-first" >Full stack Developer </span>
+                <span className="hero-first" >SOFTWARE </span>
                 <div className="star-wrapper">
                     <div className="hero-star"></div>
                 </div>
@@ -26,12 +26,15 @@ function Hero() {
                 <div className="line"></div>
                 </div>
 
-                <span className="hero-second">& UI/UX Designer</span>
+                <span className="hero-second">ENGINEER</span>
             </div>
         </h1>
 
         <p className="hero-about">
-          UI/UX designer and developer focused on building futuristic, interactive, and user-centered digital experiences.
+          Software Engineering graduate from the University of Jeddah with hands-on experience in full-stack web 
+development, system analysis, UI/UX design, database design, and software documentation. Skilled in 
+developing REST APIs, integrating databases, testing applications, and collaborating throughout the 
+software development lifecycle. Passionate about building reliable, user-centered software. 
         </p>
          <button className="contact-btn" onClick={() => setShowContact(true)}>
           Contact Me

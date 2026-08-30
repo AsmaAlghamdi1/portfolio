@@ -42,7 +42,7 @@
 }
 .hero-first,
 .hero-second {
-  font-size: clamp(5px,6vw,150px);
+  font-size: clamp(5px,9vw,150px);
   font-weight: 500;
   letter-spacing: -6px;
   line-height: 0.85;
